@@ -1,0 +1,99 @@
+
+*{
+    box-sizing:  border-box;
+    background-image: url(/photos/background\ body.jpg);
+    /* background: linear-gradient(rgb(17, 102, 142),rgb(95, 53, 108)); */
+
+}
+ 
+/* start header */
+header  .container{
+display: flex;
+border-bottom: 3px solid black;
+
+}
+
+header nav ul {
+ display: inline-flex;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    display:block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 25px;
+    /* height: 5px; */
+    width: 280px;
+    text-align: center;
+    border: 1.5px solid black;
+
+}
+
+ul li a:hover{
+    color: rgba(191, 170, 196, 0.548);
+}
+
+#but1,#but2{
+    color: aliceblue;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 15px;  
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* end header */
+.content{
+    /* display:inline; */
+    color: rgb(146, 146, 153);
+    font-size: 25px;
+    
+}
+.p1{
+    padding: 15px;
+    margin-bottom: 40px;
+
+}
+span{
+    color: rgb(201, 165, 100);
+}
+
+#sam{
+    width: "500px";
+    height: "300px";
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#app{
+    width:"500px";
+    height:"300px";
+    position: absolute;
+    left: 80%;
+    border-radius: 2px;
+}
+#leno{
+    width: "500px";
+    height: "300px";
+    position: absolute;
+    left: 29%;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+#hp{
+    width: "500px";
+    height: "300px";
+    position: absolute;
+    left: 55%;
+    border-radius: 2px;
+
+}
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="/about/about.css">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        
+        $('a').mouseenter(function(){
+        $(this).css('border', '1px solid gray ');
+        });
+        $('a').mouseleave(function(){
+        $(this).css('border', '1.5px solid black ');
+        });
+        
+        $("#but1").click(function(){
+        $("*").css({
+        "background":"black"
+        });
+        $(".container").css('border-bottom', '0.5px solid gray ');
+        $(".all").css('border', '0.5px solid gray ');
+        $(".all").css('border-radius', '7px');
+        
+        })
+        
+        });
+        
+        </script>
+        <script>
+            $(document).ready(function () {
+
+                $('.all').mouseenter(function () {
+                    $(this).animate({
+                        // margin: '-20px',
+                        padding:"50px 0 0 0"
+                    });
+                    $('.all').mouseleave(function () {
+                        $(this).animate({
+                            // margin: '20px'
+                        padding: "0px 0 0 0"
+
+                        });
+                    });
+                });
+            });
+        </script>
+</head>
+<body><header>
+    <div class="container">
+        <h1 class="am1">Amazone</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="#">ACOUNT</a></li>
+                <li><a href="/services/services.html">SERVICES</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <div class="search">
+                    <button id="but1">🌙</button>
+                    <button id="but2" onclick="window.location.reload()">☀️</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="all">
+    <div class="ab">
+    <h1>Amazone Store</h1>
+    <h2>Address:Yemen.Sanaa</h2>
+    <h3>Emali:amazone74@gmail.com</h3>
+    <h3>Telephone:01447528-777412548-73348924</h3>
+</div>
+<p>To connect to us:</p><br>
+<diV class="sm">
+<a href="http://www.whatsapp.com"><img src="/photos/whatsapp.jpg" alt="logo" height="50px"></a>
+<a href="http://www.facebook.com"><img src="/photos/facebook.jpg" alt="logo" height="50px"></a>
+<a href="http://www.instgram.com"><img src="/photos/instagram.jpg" alt="logo" height="50px"></a>
+<a href="http://www.snapchat.com"><img src="/photos/snapchat.jpg" alt="logo" height="50px"></a>
+</diV>
+</div>
+</body>
+</html>

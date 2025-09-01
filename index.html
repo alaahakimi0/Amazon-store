@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+                $('a').mouseenter(function(){
+                  $(this).css('border', '1px solid purple ');
+                });
+                $('a').mouseleave(function(){
+                  $(this).css('border', '1.5px solid black ');
+                });
+
+                $("#but1").click(function(){
+                    $("*").css({
+                         "background":"black"
+                    });
+                 $(".container").css('border-bottom', '0.5px solid gray ');
+                    
+                })
+            
+            });
+       
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="http://www.amazone.com" class="log"><img src="photos/amazone3.jpg" alt="logo" height="100px"></a>  
+            <nav>         
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="#">ACOUNT</a></li>
+                    <li><a href="/services/services.html">SERVICES</a></li>
+                    <li><a href="/about/about.html">ABOUT</a></li>
+                    <div class="search">
+                        <!-- <input type="search" name="" placeholder="Type the text"> -->
+                        <button id="but1">🌙</button>
+                        <button id="but2" onclick="window.location.reload()">☀️</button>
+                    </div>
+        </ul>
+    </nav>
+</div>
+</header>
+<div class="content">
+    <h1> Amazone store for sale<br> <span>smart phones</span> &<br><span>laptops</span></h1>
+
+    <img id="sam" src="/services/phones/samsong/samsongdevices.jpg">
+    <img id="app" src="/services/phones/apple/appledevices.jpg">
+    <img id="leno" src="/services/laptops/backgroundlenovo.jpg">
+    <img id="hp" src="/services/laptops/hpelitebook.jpg">
+    
+    
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, beatae, dolorum vitae ad ducimus corporis amet aut nemo laboriosam in, quibusdam iusto earum unde 
+        maiores? Cupiditate accusantium quaerat incidunt dignissimos.</p>
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, beatae, dolorum vitae ad ducimus corporis
+            amet aut nemo laboriosam in, quibusdam iusto earum unde
+            maiores? Cupiditate accusantium quaerat incidunt dignissimos.</p>  
+        </div>
+        <p id="pp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam officiis assumenda aut odit quo enim quia commodi tenetur perspiciatis molestias! Ratione expedita 
+            voluptates temporibus recusandae voluptatem quo quasi rem totam.</p>
+        <script> 
+
+         
+
+
+
+
+         setInterval(sam,"2500")  
+         
+         x = 0;
+         function sam() {
+             x++;
+             if (x == 1) {
+                 document.getElementById ("sam").src = "/services/phones/samsong/samsongdevices.jpg";
+                }
+                if (x == 2) {
+                    document.getElementById ("sam").src = "/services/phones/samsong/samsong/s21.jpg";
+                }
+                if (x == 3) {
+                    document.getElementById("sam").src = "/services/phones/samsong/samsong/s22.jpg";
+                }
+                if (x == 4) {
+                    document.getElementById("sam").src = "/services/phones/samsong/samsong/s23.jpg";
+                }
+                if (x == 5) {
+                    document.getElementById("sam").src = "/services/phones/samsong/samsong/s24.jpg";
+                    x = 0;
+                }
+            }    
+
+            setInterval(leno,"2000")
+         l = 0;
+         function leno() {
+             l++;
+             if (l == 1) {
+                 document.getElementById ("leno").src = "/services/laptops/backgroundlenovo.jpg";
+                }
+                if (l == 2) {
+                    document.getElementById ("leno").src = "/services/laptops/lenovoideapad.jpg";
+                }
+                if (l == 3) {
+                    document.getElementById("leno").src = "/services/laptops/lenovolegion.jpg";
+                }
+                if (l == 4) {
+                    document.getElementById("leno").src = "/services/laptops/lenovothinkpad.jpg";
+                }
+                if (l == 5) {
+                    document.getElementById("leno").src = "/services/laptops/lenovoun.jpg";
+                    l = 0;
+                }
+            }   
+
+            setInterval(hp,"2000")
+         h = 0;
+         function hp() {
+             h++;
+             if (h == 1) {
+                 document.getElementById ("hp").src = "/services/laptops/backgroundhp.jpg";
+                }
+                if (h == 2) {
+                    document.getElementById ("hp").src = "/services/laptops/hpelitebook.jpg";
+                }
+                if (h == 3) {
+                    document.getElementById("hp").src = "/services/laptops/hpenvy360.jpg";
+                }
+                if (h == 4) {
+                    document.getElementById("hp").src = "/services/laptops/hppavilion.jpg";
+                }
+                if (h == 5) {
+                    document.getElementById("hp").src = "/services/laptops/hpzbook.jpg";
+                    h = 0;
+                }
+            }    
+            
+            setInterval(app,"2500")
+              y = 0;
+                function app() {
+                    y++;
+                    if (y == 1) {
+                        document.getElementById("app").src = "/services/phones/apple/appledevices.jpg";
+                    }
+                    if (y == 2) {
+                        document.getElementById("app").src = "/services/phones/apple/iphones/iphone12.jpg";
+                    }
+                    if (y == 3) {
+                        document.getElementById("app").src = "/services/phones/apple/iphones/iphone13.jpg";
+                    }
+                    if (y == 4) {
+                        document.getElementById("app").src = "/services/phones/apple/iphones/iphone14.jpg";
+                    }
+                    if (y == 5) {
+                        document.getElementById("app").src = "/services/phones/apple/iphones/iphone15.jpg";
+                    }
+                    if (y == 6) {
+                        document.getElementById("app").src = "/services/phones/apple/iphones/iphone16.jpg";
+                        y = 0;
+                    }
+                } 
+            </script>
+    </body>
+    </html>

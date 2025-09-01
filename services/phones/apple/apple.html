@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLE</title>
+    <link rel="stylesheet" href="/services/phones/apple/apple.css">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('a').mouseenter(function () {
+                $(this).css('border', '1px solid gray ');
+            });
+            $('a').mouseleave(function () {
+                $(this).css('border', '1.5px solid black ');
+            });
+
+            // $('.swit').click(function () {
+            //     $('body').css('background', 'none');
+            // })
+
+            
+            $("#but1").click(function () {
+                $("*").css({
+                    "background": "black"
+                });
+                $(".container").css('border-bottom', '0.5px solid gray ');
+
+            })
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.ph1').mouseenter(function () {
+                $(this).animate({
+                    margin: '-20px'
+                });
+                $('.ph1').mouseleave(function () {
+                    $(this).animate({
+                        margin: '20px'
+                    });
+                });
+            });
+            $('.ph2').mouseenter(function () {
+                $(this).animate({
+                    margin: '-20px'
+                });
+                $('.ph2').mouseleave(function () {
+                    $(this).animate({
+                        margin: '20px'
+                    });
+                });
+            });
+            $('.ph3').mouseenter(function () {
+                $(this).animate({
+                    margin: '-20px'
+                });
+                $('.ph3').mouseleave(function () {
+                    $(this).animate({
+                        margin: '20px'
+                    });
+                });
+            });
+            $('.ph4').mouseenter(function () {
+                $(this).animate({
+                    margin: '-20px'
+                });
+                $('.ph4').mouseleave(function () {
+                    $(this).animate({
+                        margin: '20px'
+                    });
+                });
+
+            });
+
+
+
+        });
+    </script>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <h1>Amazone</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="#">ACOUNT</a></li>
+                        <li><a href="/services/services.html">SERVICES</a></li>
+                        <li><a href="/about/about.html">ABOUT</a></li>
+                        <div class="search">
+                        <button id="but1">🌙</button>
+                        <button id="but2" onclick="window.location.reload()">☀️</button>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    <div class="all">  
+    <div class="ph1">
+        <h1>Iphone 16 pro max</h1>
+        <img src="/services/phones/apple/iphones/iphone16.jpg" alt="">
+        <p class="iph">Price:1800$<br>memory:3G<br>processor:M10 <br>SIZE:1TB</p>
+    </div>
+    <div class="ph2">
+        <h1>Iphone 15 pro max</h1>
+        <img class="mar" src="/services/phones/apple/iphones/iphone15.jpg" alt="">
+        <p class="iph">Price:1400$<br>memory:3G<br>processor:M8<br>SIZE:512GB</p>
+    </div>
+    <div class="ph3">
+        <h1>Iphone 14 pro max</h1>
+        <img class="mar" src="/services/phones/apple/iphones/iphone14.jpg" alt="">
+        <p class="iph">Price:1100$<br>memory:3G<br>processor:M6<br>SIZE:512GB</p>
+    </div>
+    <div class="ph4">
+        <h1>Iphone 13 pro max</h1>
+        <img class="mar" src="/services/phones/apple/iphones/iphone13.jpg" alt="">
+        <p class="iph">Price:1000$<br>memory:3G<br>processor:M5<br>SIZE:</p>
+    </div>
+    </div>
+</body>
+</html>

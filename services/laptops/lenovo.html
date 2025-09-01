@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo</title>
+    <link rel="stylesheet" href="/services/laptops/lenovo.css">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('a').mouseenter(function () {
+                $(this).css('border', '1px solid white');
+            });
+            $('a').mouseleave(function () {
+                $(this).css('border', '1.5px solid black ');
+            });
+
+            $('.swit').click(function () {
+                $('body').css('background', 'none');
+            })
+
+                   $("#but1").click(function () {
+                $("*").css({
+                    "background": "black"
+                });
+                $(".container").css('border-bottom', '0.5px solid gray ');
+            // $('.hp1').css('border', '0.5px solid gray ');
+            // $(".hp2").css('border', '0.5px solid gray ');
+            // $(".hp3").css('border', '0.5px solid gray ');
+            // $(".hp4").css('border', '0.5px solid gray ');
+                
+        });
+    });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('.len1').mouseenter(function () {
+                $(this).animate({
+                    margin: '-20px'
+                });
+                $('.len1').mouseleave(function () {
+                    $(this).animate({
+                        margin: '20px'
+                    });
+                });
+                });
+                    $('.len2').mouseenter(function () {
+                        $(this).animate({
+                            margin: '-20px'
+                        });
+                        $('.len2').mouseleave(function () {
+                            $(this).animate({
+                                margin: '20px'
+                            });
+                        });
+                });
+                        $('.len3').mouseenter(function () {
+                            $(this).animate({
+                                margin: '-20px'
+                            });
+                            $('.len3').mouseleave(function () {
+                                $(this).animate({
+                                    margin: '20px'
+                                });
+                            });
+                });
+                            $('.len4').mouseenter(function () {
+                                $(this).animate({
+                                    margin: '-20px'
+                                });
+                                $('.len4').mouseleave(function () {
+                                    $(this).animate({
+                                        margin: '20px'
+                                    });
+                                });
+
+                });
+                        
+            
+            
+        });
+    </script>
+</head>
+<body>
+                <header>
+                    <div class="container">
+                        <h1>Amazone</h1>
+                        <nav>
+                            <ul>
+                                <li><a href="/index.html">HOME</a></li>
+                                <li><a href="#">ACOUNT</a></li>
+                                <li><a href="/services/services.html">SERVICES</a></li>
+                                <li><a href="/about/about.html">ABOUT</a></li>
+                                <div class="search">
+                                    <!-- <input type="search" name="" placeholder="Type the text"> -->
+                            <button id="but1">🌙</button>
+                            <button id="but2" onclick="window.location.reload()">☀️</button>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+                <div class="all">
+                <div class="len1">
+                    <h1>Lenovo Thinkpad G8</h1>
+                    <img src="/services/laptops/lenovothinkpad.jpg" alt="">
+                    <p class="len">Price:1000$<br>memory:32G<br>processor:core i7 <br>SIZE:1TB</p>
+                </div>
+                <div class="len2">
+                    <h1>Lenovo Ideapad G10</h1>
+                    <img src="/services/laptops/lenovoideapad.jpg" alt="">
+                    <p class="len">Price:600$<br>memory:16G<br>processor:core i5<br>SIZE:256GB</p>
+                </div>
+                <div class="len3">
+                    <h1>Lenovo Legion G12</h1>
+                    <img src="/services/laptops/lenovolegion.jpg" alt="">
+                    <p class="len">Price:900$<br>memory:32G<br>processor:core i7<br>SIZE:512GB</p>
+                </div>
+                <div class="len4">
+                    <h1>Lenovo Univers G6</h1>
+                    <img src="/services/laptops/lenovoun.jpg" alt="">
+                    <p class="len">Price:750$<br>memory:32G<br>processor:core i7<br>SIZE:512</p>
+                </div>
+                </div>
+            
+</body>
+</html>

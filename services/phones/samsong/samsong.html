@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMSONG</title>
+    <link rel="stylesheet" href="/services/phones/samsong/samsong.css">
+        <script src="/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+
+                $('a').mouseenter(function () {
+                    $(this).css('border', '1px solid gray ');
+                });
+                $('a').mouseleave(function () {
+                    $(this).css('border', '1.5px solid black ');
+                });
+
+                // $('.swit').click(function () {
+                //     $('body').css('background', 'none');
+                // })
+
+                
+                $("#but1").click(function () {
+                    $("*").css({
+                        "background": "black"
+                    });
+                    $(".container").css('border-bottom', '0.5px solid gray ');
+
+                })
+            });
+
+        </script>
+<script>
+    $(document).ready(function () {
+
+        $('.sm1').mouseenter(function () {
+            $(this).animate({
+                margin: '-20px'
+            });
+            $('.sm1').mouseleave(function () {
+                $(this).animate({
+                    margin: '20px'
+                });
+            });
+        });
+        $('.sm2').mouseenter(function () {
+            $(this).animate({
+                margin: '-20px'
+            });
+            $('.sm2').mouseleave(function () {
+                $(this).animate({
+                    margin: '20px'
+                });
+            });
+        });
+        $('.sm3').mouseenter(function () {
+            $(this).animate({
+                margin: '-20px'
+            });
+            $('.sm3').mouseleave(function () {
+                $(this).animate({
+                    margin: '20px'
+                });
+            });
+        });
+        $('.sm4').mouseenter(function () {
+            $(this).animate({
+                margin: '-20px'
+            });
+            $('.sm4').mouseleave(function () {
+                $(this).animate({
+                    margin: '20px'
+                });
+            });
+
+        });
+
+
+
+    });
+</script>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <h1>Amazone</h1>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="#">ACOUNT</a></li>
+                        <li><a href="/services/services.html">SERVICES</a></li>
+                        <li><a href="/about/about.html">ABOUT</a></li>
+                        <div class="search">
+                    <button id="but1">🌙</button>
+                    <button id="but2" onclick="window.location.reload()">☀️</button>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="all">
+        <div class="sm1">
+            <h1>Samsung S24</h1>
+            <img src="/services/phones/samsong/samsong/s24.jpg" alt="">
+            <p class="sams">Price:2000$<br>memory:12G<br>processor:Q14 <br>SIZE:1TB<br>camara:150px</p>
+        </div>
+        <div class="sm2">
+            <h1>Samsung S23</h1>
+            <img src="/services/phones/samsong/samsong/s23.jpg" alt="">
+            <p class="sams">Price:1400$<br>memory:10G<br>processor:Q8<br>SIZE:512GB<br>camara:100px</p>
+        </div>
+        <div class="sm3">
+            <h1>Samsung S22</h1>
+            <img src="/services/phones/samsong/samsong/s22.jpg" alt="">
+            <p class="sams">Price:1000$<br>memory:8G<br>processor:Q6<br>SIZE:512GB<br>camara:80px</p>
+        </div>
+        <div class="sm4">
+            <h1>Samsung S21</h1>
+            <img src="/services/phones/samsong/samsong/s21.jpg" alt="">
+            <p class="sams">Price:800$<br>memory:6G<br>processor:Q5<br>SIZE:256GB<br>camara:60px</p>
+        </div>
+        </div>
+</body>
+</html>

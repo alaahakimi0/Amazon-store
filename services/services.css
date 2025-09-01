@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    background-image: url(/photos/background\ body.jpg);
+}
+
+/* start header */
+header .container {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 25px;
+    width: 280px;
+    text-align: center;
+    border: 1.5px solid rgb(87, 42, 87);
+}
+
+ul li a:hover {
+    color: rgb(42, 61, 165);
+}
+
+#but1,
+#but2 {
+    color: aliceblue;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.am1 {
+    color: aliceblue;
+}
+/* end header */
+
+.all{
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-around;
+        flex-flow: row wrap;
+       
+        height: 0px;
+}
+.all h1{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: -4px -2px 2px rgb(12, 121, 255);
+}
+
+.laptops{
+    border: 2px solid rgb(58, 58, 90);
+    height: 435px;
+
+}
+
+.phones {
+    border: 2px solid rgb(64, 64, 101);
+
+}
+
+.lap1{
+ margin-left: 25px;
+}
