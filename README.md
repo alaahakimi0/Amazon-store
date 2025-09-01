@@ -63,4 +63,6 @@ To run tests, run the following command
 ## Demo
 
 Insert gif or link to demo
+[Demo](https://alaahakimi0.github.io/Amazon-store)
+
 
