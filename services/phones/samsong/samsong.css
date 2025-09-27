@@ -6,7 +6,7 @@
 /* start header */
 header .container {
     display: flex;
-    border-bottom: 3px solid black;
+    border-bottom: 4px solid rgb(10, 8, 8);
 }
 
 header nav ul {
@@ -19,14 +19,14 @@ header nav ul li {
 
 header nav ul li a {
     display: block;
-    color: white;
+    color: rgb(173, 159, 159);
     text-decoration: none;
-    font-size: 13px;
-    padding: 25px;
+    font-size: 14px;
+    padding: 26px;
     /* height: 2px; */
     width: 280px;
     text-align: center;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(111, 89, 89);
 }
 
 ul li a:hover {

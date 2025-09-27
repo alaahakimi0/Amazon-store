@@ -6,7 +6,7 @@
 /* start header */
 header .container {
     display: flex;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(97, 33, 33);
 
 }
 
@@ -20,28 +20,28 @@ header nav ul li {
 
 header nav ul li a {
     display: block;
-    color: white;
+    color: rgb(216, 197, 197);
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     padding: 25px;
     /* height: 2px; */
-    width: 280px;
+    width: 281px;
     text-align: center;
     border: 1.5px solid black;
 }
 
 ul li a:hover {
-    color: brown;
+    color: rgb(160, 27, 27);
 }
 
 #but1,
 #but2 {
-    color: aliceblue;
-    border-radius: 8px;
+    color: rgb(180, 186, 192);
+    border-radius: 9px;
     margin-left: 50px;
     margin-top: 15px;
-    padding: 5px;
-    font-size: 20px;
+    padding: 6px;
+    font-size: 21px;
 }
 
 
@@ -54,11 +54,11 @@ ul li a:hover {
     flex-flow: row wrap;
 }
 h1{
-    color: rgb(160, 164, 165);
+    color: rgb(139, 149, 151);
 }
 
 .mar{
-    margin-left: 18px;
+    margin-left: 19px;
 }
 
 /* .ph1 {
