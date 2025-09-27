@@ -11,7 +11,7 @@ body{
 /* start header */
 header .container {
     display: flex;
-    border-bottom:3px solid black;
+    border-bottom:3px solid rgb(66, 39, 39);
 }
 
 header nav ul {
