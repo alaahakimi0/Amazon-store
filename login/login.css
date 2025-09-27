@@ -32,7 +32,7 @@ body{
 .input-box input{
 background: none;
 border: 2px solid rgb(71, 71, 23);
-border-radius: 30px;
+border-radius: 31px;
 padding: 20px 45px 20px 20px;
 margin-left: 25px;
 width: 200px;
