@@ -24,7 +24,7 @@ header nav ul li {
 
 header nav ul li a {
     display: block;
-    color: white;
+    color: rgb(159, 65, 65);
     text-decoration: none;
     font-size: 13px;
     padding: 25px;
