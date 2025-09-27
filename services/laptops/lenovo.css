@@ -22,7 +22,7 @@ header nav ul li {
 
 header nav ul li a {
     display: block;
-    color: white;
+    color: rgb(180, 164, 164);
     text-decoration: none;
     font-size: 13px;
     transition: 0.3s;
