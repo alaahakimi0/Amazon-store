@@ -6,7 +6,7 @@
 /* start header */
 header .container {
     display: flex;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid rgb(10, 8, 8);
 }
 
 header nav ul {
